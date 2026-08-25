@@ -31,15 +31,10 @@ git push origin main
 Repeat for `rahul` and `deepak`'s own branch when ready.
 
 **4. Everyone syncs up with the new main**
-
-```bash
-git switch main
-git pull origin main
-```
 Then switch back to your own branch and continue working:
 
 ```bash
-git checkout ashu
+git switch ashu
 git merge main         
 # optional: bring latest main into your branch to avoid conflicts later
 ```
