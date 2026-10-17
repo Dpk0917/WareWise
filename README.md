@@ -7,6 +7,7 @@ git clone https://github.com/<org>/<repo>.git
 cd <repo>
 git checkout -b ashu     # rahul / deepak use their own names
 ```
+
 **2. Everyday work — Ashu, Rahul, and Deepak on their own branches**
 
 ```bash
@@ -19,6 +20,7 @@ git add .
 git commit -m "Describe what you changed"
 git push origin ashu              # first time: git push -u origin ashu
 ```
+
 **3. Getting a branch into main (Deepak has main access, so he does the merge)**
 
 ```bash
@@ -28,6 +30,7 @@ git merge ashu                    # merge Ashu's branch into main
 # resolve conflicts if any, then:
 git push origin main
 ```
+
 Repeat for `rahul` and `deepak`'s own branch when ready.
 
 **4. Everyone syncs up with the new main**
