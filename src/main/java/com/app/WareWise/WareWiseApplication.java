@@ -1,4 +1,4 @@
-package com.app.WareWise;
+package com.app.warewise;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
