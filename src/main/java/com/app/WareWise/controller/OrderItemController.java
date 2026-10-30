@@ -1,10 +1,9 @@
+package com.app.warewise.controller;
 
-package com.app.WareWise.controller;
-
-import com.app.WareWise.entity.InventoryBatch;
-import com.app.WareWise.entity.OrderItem;
-import com.app.WareWise.repository.InventoryBatchRepository;
-import com.app.WareWise.repository.OrderItemRepository;
+import com.app.warewise.entity.InventoryBatch;
+import com.app.warewise.entity.OrderItem;
+import com.app.warewise.repository.InventoryBatchRepository;
+import com.app.warewise.repository.OrderItemRepository;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

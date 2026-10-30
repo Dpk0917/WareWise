@@ -1,5 +1,4 @@
-
-package com.app.WareWise.entity;
+package com.app.warewise.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

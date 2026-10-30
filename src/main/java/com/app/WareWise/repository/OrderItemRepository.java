@@ -1,6 +1,6 @@
-package com.app.WareWise.repository;
+package com.app.warewise.repository;
 
-import com.app.WareWise.entity.OrderItem;
+import com.app.warewise.entity.OrderItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 

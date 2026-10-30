@@ -30,10 +30,6 @@ public class customersController {
 
     private final customersRepository customersRepository;
 
-    public customersController(customersRepository customersRepository) {
-        this.customersRepository = customersRepository;
-    }
-
     @GetMapping
     public ResponseEntity<List<customersResponse>> getAllCustomers(
             @RequestParam(required = false) String name,

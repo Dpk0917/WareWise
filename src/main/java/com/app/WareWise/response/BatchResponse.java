@@ -1,5 +1,4 @@
-
-package com.app.WareWise.response;
+package com.app.warewise.response;
 
 import java.time.LocalDate;
 

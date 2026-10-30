@@ -27,7 +27,7 @@ import com.app.warewise.repository.productsRepository;
 import com.app.warewise.repository.purchaseOrdersRepository;
 import com.app.warewise.repository.suppliersRepository;
 import com.app.warewise.repository.usersRepository;
-import com.app.warewise.request.purchaseOrdersRequest;
+import com.app.warewise.response.purchaseOrdersRequest;
 import com.app.warewise.response.purchaseOrdersResponse;
 
 import lombok.RequiredArgsConstructor;

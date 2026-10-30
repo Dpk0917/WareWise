@@ -1,8 +1,7 @@
+package com.app.warewise.controller;
 
-package com.app.WareWise.controller;
-
-import com.app.WareWise.entity.AuditLog;
-import com.app.WareWise.repository.AuditLogRepository;
+import com.app.warewise.entity.AuditLog;
+import com.app.warewise.repository.AuditLogRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

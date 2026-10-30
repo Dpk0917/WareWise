@@ -30,10 +30,6 @@ public class warehousesController {
 
     private final warehousesRepository warehousesRepository;
 
-    public warehousesController(warehousesRepository warehousesRepository) {
-        this.warehousesRepository = warehousesRepository;
-    }
-
     @GetMapping
     public ResponseEntity<List<warehousesResponse>> getAllWarehouses(
             @RequestParam(required = false) String name,

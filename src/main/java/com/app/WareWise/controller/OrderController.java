@@ -1,8 +1,7 @@
+package com.app.warewise.controller;
 
-package com.app.WareWise.controller;
-
-import com.app.WareWise.entity.Order;
-import com.app.WareWise.repository.OrderRepository;
+import com.app.warewise.entity.Order;
+import com.app.warewise.repository.OrderRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

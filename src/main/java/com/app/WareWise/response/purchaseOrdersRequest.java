@@ -1,4 +1,4 @@
-package com.app.warewise.request;
+package com.app.warewise.response;
 
 import java.math.BigDecimal;
 

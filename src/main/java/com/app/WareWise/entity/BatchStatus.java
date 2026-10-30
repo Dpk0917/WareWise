@@ -1,4 +1,4 @@
-package com.app.WareWise.entity;
+package com.app.warewise.entity;
 
 /**
  * BatchStatus
