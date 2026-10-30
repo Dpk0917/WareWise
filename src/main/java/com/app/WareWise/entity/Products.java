@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> Archita
 package com.app.warewise.entity;
 
 import java.time.LocalDateTime;
@@ -11,6 +15,10 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
+<<<<<<< HEAD
+=======
+
+>>>>>>> Archita
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -18,9 +26,17 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity(name = "products")
 public class Products {
+<<<<<<< HEAD
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+=======
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+>>>>>>> Archita
     private String name;
 
     @ManyToOne
@@ -40,4 +56,11 @@ public class Products {
     @CreationTimestamp
     @Column(name = "created_at", nullable = false, updatable = false)
     private LocalDateTime createdAt;
+<<<<<<< HEAD
+=======
+
+    public Long getId() {
+        return id;
+    }
+>>>>>>> Archita
 }
