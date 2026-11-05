@@ -1,10 +1,10 @@
-package com.warewise.demo;
+package com.app.warewise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WareWiseApplicationTests {
+class WarewiseApplicationTests {
 
 	@Test
 	void contextLoads() {
